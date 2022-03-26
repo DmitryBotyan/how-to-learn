@@ -20,21 +20,19 @@
     </header>
     <main class="content">
       <section class="description">
-        <section class="two-columns">
-          <div class="two-columns__brief">
-            <h2 class="title_place_brief">Главные проблемы в обучении</h2>
-          </div>
+        <div class="two-columns">
+            <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
-            <p class="paragraph">Ни в школе, ни в университете нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
-            <p class="paragraph"><strong>Вывод: </strong>учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
-            <p class="paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
+            <p class="two-columns__paragraph">Ни в школе, ни в университете нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
+            <p class="two-columns__paragraph"><span class="deduction">Вывод: </span>учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
+            <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
-        </section>
+        </div>
       </section>
       <section class="digits">
-        <h3 class="section__title">Цифры и факты</h3>
-        <p class="section__subtitle">Про учебу и мозг</p>
-        <section class="table">
+        <h3 class="section-title">Цифры и факты</h3>
+        <p class="section-subtitle">Про учебу и мозг</p>
+        <div class="table">
           <section class="table__cell">
             <h4 class="table__heading">86 миллиардов</h4>
             <p class="table__text">Число нейронов в мозге человека</p>
@@ -69,7 +67,7 @@
             <h4 class="table__heading">1889 год</h4>
             <p class="table__text">Открытие условного рефлекса</p>
           </section>
-        </section>
+        </div>
       </section>
       <section class="feynman">
         <h3 class="feynman__title">Метод Фейнмана</h3>
@@ -78,8 +76,8 @@
       </section>
 
       <section class="kaufman">
-          <h3 class="section__title section__title_theme_dark">Принципы обучения</h3>
-          <p class="section__subtitle section__subtitle_theme_dark">от Джоша Кауфмана</p>
+          <h3 class="section-title section-title_theme_dark">Принципы обучения</h3>
+          <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
           <section class="table table_theme_dark">
             <section class="table__cell table__cell_theme_dark">
               <h4 class="table__heading table__heading_theme_dark">1</h4>
@@ -122,26 +120,34 @@
               <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
             </section>
           </section>
-        <img src="./images/kaufman-triangle.svg" alt="Триугольник" class="kaufman__tringle">
+          <div class="kaufman__tringle"></div>
       </section>
     </main>
     <footer class="footer">
       <section class="footer__columns">
-        <section class="footer__column_content_copyright">
+        <section class="footer__column footer__column_content-copyright">
           <img src="./images/logo_place_footer.svg" alt="Яндекс" class="logo logo_place_footer">
-          <p class="footer__autor">&#169; 2019. Виктор Абанькин</p>
+          <p class="footer__autor">&#169; 2022. Дмитрий Ботян</p>
         </section>
-        <section class="footer__column_content_info">
-          <h3 class="footer__column_heading">О Практикуме</h3>
-          <a class="footer__column_links" href="#">Главная</a>
-          <a class="footer__column_links" href="#">Концепция</a>
-          <a class="footer__column_links" href="#">Наставники</a>
+        <section class="footer__column footer__column_content-info">
+          <h3 class="footer__column-heading">О Практикуме</h3>
+          <nav class="footer__column-links">
+            <ul class="footer__list">
+              <li><a class="footer__column-link" href="#">Главная</a></li>
+              <li><a class="footer__column-link" href="#">Концепция</a></li>
+              <li><a class="footer__column-link" href="#">Наставники</a></li>
+            </ul>
+          </nav>
         </section>
-        <section class="footer__column_content_social">
-          <h3 class="footer__column_heading">Соцсети</h3>
-          <a class="footer__column_links" href="#"><img src="./images/facebook_color_white.svg" alt="Фейсбук" class="footer__social_icon">Facebook</a>
-          <a class="footer__column_links" href="#"><img src="./images/vk_color_white.svg" alt="ВК" class="footer__social_icon">ВКонтакте</a>
-          <a class="footer__column_links" href="#"><img src="./images/instagram_color_white.svg" alt="Инстаграм" class="footer__social_icon">Instagram</a>
+        <section class="footer__column footer__column_content_social">
+          <h3 class="footer__column-heading">Соцсети</h3>
+          <nav class="footer__column-links">
+            <ul class="footer__list">
+              <li><a class="footer__column-link" href="#"><img src="./images/facebook_color_white.svg" alt="Фейсбук" class="footer__social-icon">Facebook</a></li>
+              <li><a class="footer__column-link" href="#"><img src="./images/vk_color_white.svg" alt="ВК" class="footer__social-icon">ВКонтакте</a></li>
+              <li><a class="footer__column-link" href="#"><img src="./images/instagram_color_white.svg" alt="Инстаграм" class="footer__social-icon">Instagram</a></li>
+            </ul>
+          </nav>
         </section>
       </section>
     </footer>
