@@ -106,7 +106,6 @@
 }
 
 .two-columns__brief {
-  margin: 0;
   padding: 0;
   width: 175px;
   margin: 0 auto;
@@ -151,7 +150,6 @@
 }
 
 .section-title {
-  margin: 0;
   padding: 0;
   line-height: 1.15;
   font-size: 60px;
@@ -160,10 +158,9 @@
 }
 
 .section-subtitle {
-  margin: 0;
   padding: 0;
+  margin: 0 auto;
   line-height: 34px;
-  margin: auto;
   margin-top: 20px;
   font-size: 24px;
   font-weight: normal;
@@ -211,9 +208,8 @@
 }
 
 .feynman__title {
-  margin: 0;
-  padding: 0;
   margin: 0 auto;
+  padding: 0;
   margin-top: 100px;
   line-height: 1.15;
   font-size: 120px;
